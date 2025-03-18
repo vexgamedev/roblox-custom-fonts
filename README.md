@@ -52,7 +52,7 @@ local label = Instance.new("TextLabel", screenGui)
 label.Text = "Hello world! This is a custom font called 'lucon' (Lucida Console)!"
 label.Position = UDim2.fromScale(0.5, 0.8)
 label.AnchorPoint = Vector2.new(0.5, 0.5)
-label.FontFace = library:new_font("lucon")
+label.FontFace = library:new_font("lucon.ttf")
 label.TextColor3 = Color3.fromRGB(255, 255, 255)
 label.TextSize = 18
 
